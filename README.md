@@ -3,7 +3,7 @@ VCMatrix
 
 ### Introduction
 
-For vertex color passing across vertices by distance or hsv.
+Some simple function written in C for Vertex Color passing between LODs.
 
 ### Usage
 
