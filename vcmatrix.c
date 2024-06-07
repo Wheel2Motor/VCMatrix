@@ -38,10 +38,10 @@ _vec3_dist(struct Vec3 * va, struct Vec3 * vb) {
 
 inline static void
 _color4f_to_color4u(struct Color4U * out, struct Color4F * in) {
-	out->r = (uint8_t)roundf(in->r * 255.0);
-	out->g = (uint8_t)roundf(in->g * 255.0);
-	out->b = (uint8_t)roundf(in->b * 255.0);
-	out->a = (uint8_t)roundf(in->a * 255.0);
+	out->r = (Byte)roundf(in->r * 255.0);
+	out->g = (Byte)roundf(in->g * 255.0);
+	out->b = (Byte)roundf(in->b * 255.0);
+	out->a = (Byte)roundf(in->a * 255.0);
 }
 
 
